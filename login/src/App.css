@@ -1,0 +1,58 @@
+.container {
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerlogin {
+    background-color: white;
+    margin-top: 193px;
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4%;
+}
+.containerloguito {
+    display: flex;
+    flex-direction: row;
+    width: 265px;
+    /* background-color: orange; */
+    justify-content: space-between;
+}
+
+.loginname {
+    margin-top: 40px;
+    margin-bottom: 33px;
+    height: 35px;
+    width: 265px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.namefield {
+    margin-top: 11px;
+    width: 265px;
+    height: 16px;
+    text-align: left;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.cinput {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.cinput:focus {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.smalllogo {
+    margin-right: 10px;
+}
