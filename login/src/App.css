@@ -1,5 +1,6 @@
 .container {
-    background-color: blue;
+    background: rgb(27,8,210);
+    background: radial-gradient(circle, rgba(27,8,210,0.9010197829131653) 27%, rgba(7,2,87,1) 100%);
     height: 100vh;
     display: flex;
     align-items: center;
