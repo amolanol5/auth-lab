@@ -1,6 +1,8 @@
 import './App.css'
 import logoUser from './assets/person.svg'
 import logoLock from './assets/lock.svg'
+import Button from './Button.tsx'
+
 
 function App() {
   return (
@@ -9,13 +11,17 @@ function App() {
         <div className='loginname'> Login</div>
         <div className='namefield'> Username</div>
         <div className='containerloguito'>
-        <img className='smalllogo' src={logoUser} />
+          <img className='smalllogo' src={logoUser} />
           <input className='cinput' type="text" placeholder='Type your Username' />
         </div>
         <div className='namefield'> Password</div>
+
         <div className='containerloguito'>
           <img className='smalllogo' src={logoLock} />
-          <input className='cinput' type="text" placeholder='Type your Password' />
+          <input className='cinput' type="password" placeholder='Type your Password' />
+        </div>
+        <div className='boton'>
+          <Button />
         </div>
       </article>
     </div>
