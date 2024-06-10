@@ -1,21 +1,22 @@
 import './App.css'
+import logoUser from './assets/person.svg'
+import logoLock from './assets/lock.svg'
 
 function App() {
   return (
-    <div className='container'> 
-      <article className='containerlogin'> 
-        <div className='loginname'> login</div>
+    <div className='container'>
+      <article className='containerlogin'>
+        <div className='loginname'> Login</div>
         <div className='namefield'> Username</div>
         <div className='containerloguito'>
-          <div className='smalllogo'>loguito</div>
+        <img className='smalllogo' src={logoUser} />
           <input className='cinput' type="text" placeholder='Type your Username' />
         </div>
         <div className='namefield'> Password</div>
         <div className='containerloguito'>
-          <div className='smalllogo'><img src="./assets/person.svg" alt="" /></div>
-          <input className='cinput' type="text" placeholder='Type your Password' />  
+          <img className='smalllogo' src={logoLock} />
+          <input className='cinput' type="text" placeholder='Type your Password' />
         </div>
-    
       </article>
     </div>
   )

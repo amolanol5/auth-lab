@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
 .container {
     background: rgb(27,8,210);
     background: radial-gradient(circle, rgba(27,8,210,0.9010197829131653) 27%, rgba(7,2,87,1) 100%);
@@ -5,13 +10,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ACA9A9;
+    font-size: 12px;
 }
 
 .containerlogin {
     background-color: white;
-    margin-top: 193px;
-    width: 400px;
-    height: 700px;
+    width: 28rem;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,40 +26,53 @@
 .containerloguito {
     display: flex;
     flex-direction: row;
-    width: 265px;
+    width: 23rem;
     /* background-color: orange; */
     justify-content: space-between;
+    border-bottom: 1px solid #E7E7E7;
 }
 
 .loginname {
     margin-top: 40px;
     margin-bottom: 33px;
     height: 35px;
-    width: 265px;
+    width: 23rem;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    color: black;
 }
 
 .namefield {
     margin-top: 11px;
-    width: 265px;
+    width: 23rem;
     height: 16px;
     text-align: left;
-    color: grey;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .cinput {
     border: none;
-    border-bottom: 1px solid gray;
+    width: 20rem;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #ACA9A9;
+
 }
 
 .cinput:focus {
     border: none;
-    border-bottom: 1px solid gray;
     outline: none;
+
 }
+.cinput:active {
+
+}
+
 .smalllogo {
     margin-right: 10px;
+}
+
+img {
+    display: block;
 }
