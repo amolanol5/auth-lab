@@ -79,5 +79,9 @@ img {
 
 .boton {
     display: flex;
-    margin-top: 22rem;
+    height: 60px;
+    width: 23rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60%;
 }
