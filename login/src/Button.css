@@ -15,10 +15,13 @@
 }
 
 .button button:hover {
-    background-color: #ACA9A9;
+    /* background-color: #ACA9A9;
     border: none;
     color:white;
-    /* transition:0s; */
+    transition:0s; */
+    box-shadow: 0px 2px 5px 2px #d8d8d8;
+
+
 }
 
 .button button:active {
